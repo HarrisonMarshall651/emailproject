@@ -5,7 +5,7 @@ from password import Password
 
 # defining email qualities as objects
 email_sender = "harrisonjmarshall@gmail.com"
-pass1 = Password("name")
+pass1 = Password("name") #  This is just because I do not wish to leak my password lol, you should just use a string as normal
 email_receiver = "darksh0gunyt@gmail.com"
 subject = 'test2'
 body = "This is just another test"
